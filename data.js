@@ -422,6 +422,75 @@ const STUDY_DATA = [
     downloads: 78500,
     url: "#",
   },
+  {
+  id: 31,
+  title: "UPSC Polity Notes",
+  subject: "UPSC",
+  class: "Competitive",
+  board: "UPSC",
+  type: "Notes",
+  tags: ["upsc","polity"],
+  size: "5 MB",
+  pages: 100,
+  downloads: 0,
+  url: "#"
+},
+
+{
+  id: 32,
+  title: "SSC Maths Notes",
+  subject: "SSC",
+  class: "Competitive",
+  board: "SSC",
+  type: "Notes",
+  tags: ["ssc","maths"],
+  size: "4 MB",
+  pages: 80,
+  downloads: 0,
+  url: "#"
+},
+
+{
+  id: 33,
+  title: "Railway Reasoning Notes",
+  subject: "Railway",
+  class: "Competitive",
+  board: "Railway",
+  type: "Notes",
+  tags: ["railway","reasoning"],
+  size: "3 MB",
+  pages: 60,
+  downloads: 0,
+  url: "#"
+},
+
+{
+  id: 34,
+  title: "Air Force Physics Notes",
+  subject: "Air Force",
+  class: "Competitive",
+  board: "Air Force",
+  type: "Notes",
+  tags: ["airforce","physics"],
+  size: "4 MB",
+  pages: 75,
+  downloads: 0,
+  url: "#"
+},
+
+{
+  id: 35,
+  title: "ICG Navik GD Notes",
+  subject: "ICG",
+  class: "Competitive",
+  board: "ICG",
+  type: "Notes",
+  tags: ["icg","navik"],
+  size: "4 MB",
+  pages: 90,
+  downloads: 0,
+  url: "#"
+}
 ];
 
 // ── Search Engine (runs entirely in browser) ──────────────────

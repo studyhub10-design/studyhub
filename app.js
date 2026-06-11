@@ -5,16 +5,15 @@
 
 // ── Subject config ─────────────────────────────────────────
 const SUBJECT_ICONS = {
-  "Mathematics":      { icon: "📐", color: "#4F8EF7" },
-  "Physics":          { icon: "⚡", color: "#7C5CFC" },
-  "Chemistry":        { icon: "🧪", color: "#22C55E" },
-  "Biology":          { icon: "🧬", color: "#F59E0B" },
-  "English":          { icon: "📖", color: "#EC4899" },
-  "Computer Science": { icon: "💻", color: "#06B6D4" },
-  "Economics":        { icon: "📊", color: "#84CC16" },
-  "History":          { icon: "🏛️", color: "#F97316" },
-  "Geography":        { icon: "🌍", color: "#14B8A6" },
-  "General Knowledge":{ icon: "🎯", color: "#A855F7" },
+  "UPSC":      { icon: "🏛️", color: "#F97316" },
+  "SSC":       { icon: "🚔", color: "#4F8EF7" },
+  "Railway":   { icon: "🚆", color: "#22C55E" },
+  "Air Force": { icon: "✈️", color: "#7C5CFC" },
+  "ICG":       { icon: "⚓", color: "#14B8A6" },
+  "Banking":   { icon: "🏦", color: "#EC4899" },
+  "JEE":       { icon: "📐", color: "#06B6D4" },
+  "NEET":      { icon: "🩺", color: "#84CC16" },
+  "CBSE":      { icon: "📚", color: "#A855F7" }
 };
 
 const TYPE_BADGE = {
