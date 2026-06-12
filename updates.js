@@ -3,33 +3,19 @@ const EXAM_UPDATES = [
 {
     title: "SSC CHSL Notification Released",
     exam: "SSC",
-    type: "Notification",
-    date: "01 July 2026",
-    link: "#"
+    date: "1 July 2026"
 },
 
 {
     title: "ICG Navik GD Exam Date Announced",
     exam: "ICG",
-    type: "Exam Date",
-    date: "15 August 2026",
-    link: "#"
+    date: "15 August 2026"
 },
 
 {
-    title: "Air Force X Group Cutoff Released",
-    exam: "Air Force",
-    type: "Cutoff",
-    date: "20 June 2026",
-    link: "#"
-},
-
-{
-    title: "UPSC CSE Application Started",
+    title: "UPSC Notification Released",
     exam: "UPSC",
-    type: "Notification",
-    date: "10 July 2026",
-    link: "#"
+    date: "10 July 2026"
 }
 
 ];

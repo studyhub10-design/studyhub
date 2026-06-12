@@ -288,18 +288,5 @@ function renderUpdates() {
     if (!container) return;
 
     container.innerHTML =
-        EXAM_UPDATES.map(update => `
-
-        <div class="update-card">
-
-            <h3>${update.title}</h3>
-
-            <p>${update.exam}</p>
-
-            <small>${update.date}</small>
-
-        </div>
-
-        `).join('');
-
+        "<h1 style='color:red'>TEST WORKING</h1>";
 }
