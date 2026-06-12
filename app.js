@@ -128,7 +128,8 @@ function renderPopular() {
 }
 
 // ── Render subject grid ────────────────────────────────────
-function renderSubjects() {
+function renderSubjects()
+ {
   const grid = $("#subject-grid");
   const counts = {};
   STUDY_DATA.forEach(d => { counts[d.subject] = (counts[d.subject] || 0) + 1; });
@@ -143,37 +144,7 @@ function renderSubjects() {
     </div>`;
   }).join("");
 }
-function renderUpdates(){
 
-    const container =
-        document.getElementById(
-            "updates-container"
-        );
-
-    if(!container) return;
-
-    container.innerHTML =
-        EXAM_UPDATES.map(update => `
-
-        <div class="update-card">
-
-            <h3>${update.title}</h3>
-
-            <p>
-                ${update.exam}
-                •
-                ${update.type}
-            </p>
-
-            <small>
-                ${update.date}
-            </small>
-
-        </div>
-
-        `).join("");
-
-}
 
 // ── Populate filter dropdowns ──────────────────────────────
 function buildFilters() {
@@ -238,7 +209,7 @@ document.addEventListener("DOMContentLoaded", () => {
   renderPopular();
   buildFilters();
   updateTotalCount();
-
+  renderUpdates();   // ADD THIS LINE
   // ── HOME search ──────────────────────────────────────────
   const heroInput = $("#hero-input");
   const heroBtn   = $("#hero-btn");
@@ -307,3 +278,28 @@ document.addEventListener("DOMContentLoaded", () => {
   // "View All" popular button
   $("#view-all")?.addEventListener("click", () => doSearch(""));
 });
+function renderUpdates() {
+
+    const container =
+        document.getElementById(
+            "updates-container"
+        );
+
+    if (!container) return;
+
+    container.innerHTML =
+        EXAM_UPDATES.map(update => `
+
+        <div class="update-card">
+
+            <h3>${update.title}</h3>
+
+            <p>${update.exam}</p>
+
+            <small>${update.date}</small>
+
+        </div>
+
+        `).join('');
+
+}
