@@ -143,6 +143,37 @@ function renderSubjects() {
     </div>`;
   }).join("");
 }
+function renderUpdates(){
+
+    const container =
+        document.getElementById(
+            "updates-container"
+        );
+
+    if(!container) return;
+
+    container.innerHTML =
+        EXAM_UPDATES.map(update => `
+
+        <div class="update-card">
+
+            <h3>${update.title}</h3>
+
+            <p>
+                ${update.exam}
+                •
+                ${update.type}
+            </p>
+
+            <small>
+                ${update.date}
+            </small>
+
+        </div>
+
+        `).join("");
+
+}
 
 // ── Populate filter dropdowns ──────────────────────────────
 function buildFilters() {

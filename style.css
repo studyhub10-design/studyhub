@@ -396,3 +396,24 @@ input, select { font-family: inherit; outline: none; }
 .mt-4 { margin-top: 16px; }
 .mb-4 { margin-bottom: 16px; }
 .hidden { display: none !important; }
+.update-card{
+
+    background:#1c2030;
+
+    padding:15px;
+
+    border-radius:12px;
+
+    margin-bottom:12px;
+
+    cursor:pointer;
+
+    transition:0.3s;
+
+}
+
+.update-card:hover{
+
+    transform:translateY(-3px);
+
+}
